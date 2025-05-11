@@ -1,0 +1,39 @@
+/**
+ * Liberation Sans designed by Steve Matteson, Ascender Corporation
+ *
+ * Red Hat licensed these fonts from Ascender Corp under 
+ *
+ * SIL Open Font License (version 2 onwards)[1]
+ * GPL font exception (older versions)[2]
+ *
+ * This web compatible woff2 font collection and stylesheet are provided by
+ * Thorsten Lorenz, coseos.com with respect to the original license.
+ */
+@font-face {
+    font-family: 'Liberation Sans';
+    src: local('Liberation Sans Bold'), local('LiberationSans-Bold'),
+        url('../woff2/LiberationSans-Bold.woff2') format('woff2');
+    font-weight: bold; font-style: normal; font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Sans';
+    src: local('Liberation Sans Italic'), local('LiberationSans-Italic'),
+        url('../woff2/LiberationSans-Italic.woff2') format('woff2');
+    font-weight: normal; font-style: italic; font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Sans';
+    src: local('Liberation Sans Bold Italic'), local('LiberationSans-BoldItalic'),
+        url('../woff2/LiberationSans-BoldItalic.woff2') format('woff2');
+    font-weight: bold; font-style: italic; font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Sans';
+    src: local('Liberation Sans'), local('LiberationSans'),
+        url('../woff2/LiberationSans.woff2') format('woff2');
+    font-weight: normal; font-style: normal; font-display: swap;
+}
+
